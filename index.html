@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>안주희 포트폴리오</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <section>
+        <div class="scrollDist"></div>
+        <svg class="container" width="100%" height="100%">
+            <defs>
+                <mask id="m"></mask>
+                <g id="txt2">
+                    <text class="txt2" x="0" y="0" stroke="#fff">I'm WEB PUBLISHER :)</text>
+                </g>
+                <g id="txt1">
+                    <rect width="750" height="120" fill="none"/>
+                    <text class="txt1" x="-240" y="-140" fill="#000" letter-spacing="0.15">WELCOME!</text>
+                    <text class="txt1" x="-180" y="-70" fill="#000" letter-spacing="0.15">THIS IS</text>
+                    <text class="txt1" x="-430" y="0" fill="#000" letter-spacing="0.15">JUHEE'S PORTFOLIO.</text>
+                </g>
+            </defs>
+            <use xlink:href="#txt2" x="50%" y="50%" transform="translate(-500 0)" />
+            <g mask="url(#m)">
+                <rect fill="#fff" width="100%" height="100%" />
+                <use xlink:href="#txt1" x="50%" y="50%" transform="translate(0 0)" />
+            </g>
+        </svg>
+        <a href="https://ajhuiux.github.io/portfolio-cover/" class="mainLogo"></a>
+        <a href="https://ajhuiux.github.io/portfolio/" class="clickBt">
+            <span>More About Me.</span>
+            <span>Click Here !</span>
+        </a>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/zepto/1.2.0/zepto.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/gsap.min.js'></script>
+    <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollToPlugin3.min.js'></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
